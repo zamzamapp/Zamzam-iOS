@@ -776,11 +776,11 @@ typedef void (^AttachmentDownloadFailure)(NSError *error);
     NSString *urlPath;
     if (attachmentPointer.cdnKey.length > 0) {
         urlPath = [NSString
-            stringWithFormat:@"attachments/%@",
+            stringWithFormat:@"%@",
             [attachmentPointer.cdnKey
                 stringByAddingPercentEncodingWithAllowedCharacters:NSCharacterSet.URLPathAllowedCharacterSet]];
     } else {
-        urlPath = [NSString stringWithFormat:@"attachments/%llu", attachmentPointer.serverId];
+        urlPath = [NSString stringWithFormat:@"%llu", attachmentPointer.serverId];
     }
     NSURL *url = [[NSURL alloc] initWithString:urlPath relativeToURL:manager.baseURL];
 

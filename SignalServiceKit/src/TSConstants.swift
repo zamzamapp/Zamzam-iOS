@@ -150,14 +150,14 @@ public class TSConstants: NSObject {
 
 private class TSConstantsProduction: TSConstantsProtocol {
 
-    public let textSecureWebSocketAPI = "wss://textsecure-service.whispersystems.org/v1/websocket/"
-    public let textSecureServerURL = "https://textsecure-service.whispersystems.org/"
-    public let textSecureCDN0ServerURL = "https://cdn.signal.org"
-    public let textSecureCDN2ServerURL = "https://cdn2.signal.org"
-    public let contactDiscoveryURL = "https://api.directory.signal.org"
-    public let keyBackupURL = "https://api.backup.signal.org"
-    public let storageServiceURL = "https://storage.signal.org"
-    public let kUDTrustRoot = "BXu6QIKVz5MA8gstzfOgRQGqyLqOwNKHL6INkv3IHWMF"
+    public let textSecureWebSocketAPI = "wss://signal.zamzam.chat/v1/websocket/"
+    public let textSecureServerURL = "https://signal.zamzam.chat/"
+    public let textSecureCDN0ServerURL = "https://cdn.zamzam.chat"
+    public let textSecureCDN2ServerURL = "https://cdn.zamzam.chat"
+    public let contactDiscoveryURL = "https://signal.zamzam.chat"
+    public let keyBackupURL = "https://signal.zamzam.chat"
+    public let storageServiceURL = "https://signal.zamzam.chat"
+    public let kUDTrustRoot = "BVfyxGL4xJMq3D689G9cWV4w8WnqRuMzUtO0fTHEeAla"
 
     public let censorshipReflectorHost = "europe-west1-signal-cdn-reflector.cloudfunctions.net"
 
@@ -183,21 +183,21 @@ private class TSConstantsProduction: TSConstantsProtocol {
 
     // We need to discard all profile key credentials if these values ever change.
     // See: GroupsV2Impl.verifyServerPublicParams(...)
-    public let serverPublicParamsBase64 = "AMhf5ywVwITZMsff/eCyudZx9JDmkkkbV6PInzG4p8x3VqVJSFiMvnvlEKWuRob/1eaIetR31IYeAbm0NdOuHH8Qi+Rexi1wLlpzIo1gstHWBfZzy1+qHRV5A4TqPp15YzBPm0WSggW6PbSn+F4lf57VCnHF7p8SvzAA2ZZJPYJURt8X7bbg+H3i+PEjH9DXItNEqs2sNcug37xZQDLm7X0=="
+    public let serverPublicParamsBase64 = "AH6+rGx5BLXlV+ynjexd+nykOAPaxcTTu9Doe2yaINIBgC5kXzJoEQUv7OTk0d7tFzjUlHZ9NENcXxZZrgkMRiRuGpc9L8IggvffQO55I+xwionGOwJ2SU/WL8t4wymBXn4XJ2Od08q3L7lA8jG1KYEWkhM4pV6M1T+a9Ulb/ooFMpBhDif0kDciUFuPRfu3HIbwUIkxl2E3agewdxnSgws="
 }
 
 // MARK: -
 
 private class TSConstantsStaging: TSConstantsProtocol {
 
-    public let textSecureWebSocketAPI = "wss://textsecure-service-staging.whispersystems.org/v1/websocket/"
-    public let textSecureServerURL = "https://textsecure-service-staging.whispersystems.org/"
-    public let textSecureCDN0ServerURL = "https://cdn-staging.signal.org"
-    public let textSecureCDN2ServerURL = "https://cdn2-staging.signal.org"
-    public let contactDiscoveryURL = "https://api-staging.directory.signal.org"
-    public let keyBackupURL = "https://api-staging.backup.signal.org"
-    public let storageServiceURL = "https://storage-staging.signal.org"
-    public let kUDTrustRoot = "BbqY1DzohE4NUZoVF+L18oUPrK3kILllLEJh2UnPSsEx"
+    public let textSecureWebSocketAPI = "wss://signal.zamzam.chat/v1/websocket/"
+    public let textSecureServerURL = "https://signal.zamzam.chat/"
+    public let textSecureCDN0ServerURL = "https://cdn.zamzam.chat"
+    public let textSecureCDN2ServerURL = "https://cdn.zamzam.chat"
+    public let contactDiscoveryURL = "https://signal.zamzam.chat"
+    public let keyBackupURL = "https://signal.zamzam.chat"
+    public let storageServiceURL = "https://signal.zamzam.chat"
+    public let kUDTrustRoot = "BVfyxGL4xJMq3D689G9cWV4w8WnqRuMzUtO0fTHEeAla"
 
     public let censorshipReflectorHost = "europe-west1-signal-cdn-reflector.cloudfunctions.net"
 
@@ -224,5 +224,5 @@ private class TSConstantsStaging: TSConstantsProtocol {
 
     // We need to discard all profile key credentials if these values ever change.
     // See: GroupsV2Impl.verifyServerPublicParams(...)
-    public let serverPublicParamsBase64 = "ABSY21VckQcbSXVNCGRYJcfWHiAMZmpTtTELcDmxgdFbtp/bWsSxZdMKzfCp8rvIs8ocCU3B37fT3r4Mi5qAemeGeR2X+/YmOGR5ofui7tD5mDQfstAI9i+4WpMtIe8KC3wU5w3Inq3uNWVmoGtpKndsNfwJrCg0Hd9zmObhypUnSkfYn2ooMOOnBpfdanRtrvetZUayDMSC5iSRcXKpdls=="
+    public let serverPublicParamsBase64 = "AH6+rGx5BLXlV+ynjexd+nykOAPaxcTTu9Doe2yaINIBgC5kXzJoEQUv7OTk0d7tFzjUlHZ9NENcXxZZrgkMRiRuGpc9L8IggvffQO55I+xwionGOwJ2SU/WL8t4wymBXn4XJ2Od08q3L7lA8jG1KYEWkhM4pV6M1T+a9Ulb/ooFMpBhDif0kDciUFuPRfu3HIbwUIkxl2E3agewdxnSgws="
 }

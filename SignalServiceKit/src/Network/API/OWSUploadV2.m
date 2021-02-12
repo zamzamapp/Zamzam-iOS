@@ -364,7 +364,7 @@ void AppendMultipartFormPath(id<AFMultipartFormData> formData, NSString *name, N
     self.serverId = serverId;
 
     __weak OWSAttachmentUploadV2 *weakSelf = self;
-    NSString *uploadUrlPath = @"attachments/";
+    NSString *uploadUrlPath = @"";
     return [OWSUploadV2 uploadObjcWithData:self.attachmentData
                                 uploadForm:form
                              uploadUrlPath:uploadUrlPath
